@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+<!--    <h1>if---- condition</h1>
+        {% if a > b%}
+            <h1>{{a}}</h1>
+        {% endif %} 
+
+
+
+        <h1>if_else condition</h1>
+        {% if a > b%}
+            <h1>A IS GRATER</h1>
+            <h2>{{a}}</h2>
+        {% else %}
+        <h1>B IS GRATER</h1>
+            <h2>{{b}}</h2>
+        {% endif %}
+
+
+
+    <h1>if-elif-else-condition</h1>
+        {% if a > b %}
+            <h1>A IS GRATER</h1>   
+                <h2>{{a}}</h2>
+        {% elif b > c%}
+            <h2> B IS GRATER</h2>
+                <H3>{{b}}</H3>
+        {% else %}
+            <h2>C IS GRATER</h2>
+            <H3>{{c}}</H3>
+
+        {% endif %} 
+-->
+    <h1>nested---if</h1>
+        {% if a > b %}
+            {% if a > c %}
+                <h2>a is grater</h2>
+            {% else %}
+                <h2> c is grater</h2>
+            {% endif %}
+        {% else %}
+            {% if b > c %}
+                <h2>b is grater</h2>
+            {% else %}
+                <h2>c is grater</h2>
+            {% endif %}
+        {% endif %}    
+    </center>
+</body>
+</html>
